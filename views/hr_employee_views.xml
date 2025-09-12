@@ -46,9 +46,9 @@
 
     <!-- List view enhancement -->
     <record id="view_employee_list_weekly_hours" model="ir.ui.view">
-        <field name="name">hr.employee.list.weekly.hours</field>
-        <field name="model">hr.employee</field>
-        <field name="inherit_id" ref="hr.view_employee_list"/>
+            <field name="name">hr.employee.tree.weekly.hours</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
         <field name="arch" type="xml">
             <field name="work_email" position="after">
                 <field name="current_week_hours"/>
