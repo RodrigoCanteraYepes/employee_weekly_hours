@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Explicit model record for employee.weekly.summary -->
-    <record id="model_employee_weekly_summary" model="ir.model">
-        <field name="name">employee.weekly.summary</field>
-        <field name="model">employee.weekly.summary</field>
-        <field name="state">manual</field>
-    </record>
+    <!-- No explicit model records needed - models are auto-registered from Python classes -->
 </odoo>
