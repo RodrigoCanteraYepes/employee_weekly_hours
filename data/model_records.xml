@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <!-- Model record for employee.weekly.summary -->
+        <!-- Model reference for employee.weekly.summary -->
         <record id="model_employee_weekly_summary" model="ir.model">
-            <field name="name">employee.weekly.summary</field>
+            <field name="name">Employee Weekly Summary</field>
             <field name="model">employee.weekly.summary</field>
-            <field name="state">manual</field>
         </record>
     </data>
 </odoo>
