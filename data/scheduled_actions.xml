@@ -2,7 +2,7 @@
 <odoo>
     <record id="ir_cron_weekly_summary" model="ir.cron">
         <field name="name">Generate Weekly Hours Summary</field>
-        <field name="model_id" ref="employee_weekly_hours.model_employee_weekly_summary"/>
+        <field name="model_id" ref="base.model_employee_weekly_summary"/>
         <field name="state">code</field>
         <field name="code">model._generate_weekly_summaries()</field>
         <field name="interval_number">1</field>
